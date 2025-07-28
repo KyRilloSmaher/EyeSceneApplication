@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kgYgsbDqC6z+4QXS46zflDIevCcJuEmFqLTVx7qSVgI=",
+  "Source": "EyeScenceApp.API",
+  "BasePath": "_content/EyeScenceApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,52 @@
+﻿
+using EyeScenceApp.Application.DTOs.Crew.Directors;
+using EyeScenceApp.Domain.Enums;
+using FluentValidation;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EyeScenceApp.Application.Validations.directors
+{
+    public class UpdateDirectorDTOValidation : AbstractValidator<UpdateDirectorDTO>
+    {
+        public UpdateDirectorDTOValidation() { 
+          
+            RuleFor(director => director.Id)
+                .NotEmpty().WithMessage("director ID is required.")
+                .NotEqual(Guid.Empty).WithMessage("director ID cannot be an empty GUID.");
+            RuleFor(director => director.FirstName)
+                .NotEmpty().WithMessage("First name is required.")
+                .MaximumLength(50).WithMessage("First name cannot exceed 50 characters.");
+
+            RuleFor(director => director.LastName)
+                .NotEmpty().WithMessage("Last name is required.")
+                .MaximumLength(50).WithMessage("Last name cannot exceed 50 characters.");
+
+            RuleFor(director => director.Bio)
+                .MaximumLength(500).WithMessage("Bio cannot exceed 500 characters.");
+
+            RuleFor(director => director.BirthDate)
+                .LessThanOrEqualTo(DateTime.Now).WithMessage("Birth date cannot be in the future.");
+
+            RuleFor(director => director.Images)
+                    .Must(images => images != null && images.Count() <= 10)
+                    .WithMessage("You can upload a maximum of 10 images.");
+            RuleFor(director => director.Sex)
+                .IsInEnum()
+                .WithMessage("Gender Must be Valid Type And Not Null");
+            RuleFor(director => director.Sex)
+                .IsInEnum()
+                .WithMessage("Acting Style Must be Valid Type And Not Null");
+            RuleFor(director => director.VisionStatement)
+                .NotNull().WithMessage("VisionStatement cannot be null.");
+            RuleFor(director => director.Nationality)
+                .IsInEnum()
+                .WithMessage("Nationality Must be Valid Type And Not Null");
+
+
+        }
+    }
+}

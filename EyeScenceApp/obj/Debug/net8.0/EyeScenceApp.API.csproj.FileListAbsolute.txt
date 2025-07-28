@@ -1,0 +1,7 @@
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp\obj\Debug\net8.0\EyeScenceApp.API.csproj.AssemblyReference.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp\obj\Debug\net8.0\EyeScenceApp.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp\obj\Debug\net8.0\EyeScenceApp.API.AssemblyInfoInputs.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp\obj\Debug\net8.0\EyeScenceApp.API.AssemblyInfo.cs
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp\obj\Debug\net8.0\EyeScenceApp.API.csproj.CoreCompileInputs.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp\obj\Debug\net8.0\EyeScenceApp.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp\obj\Debug\net8.0\EyeScenceApp.API.MvcApplicationPartsAssemblyInfo.cache

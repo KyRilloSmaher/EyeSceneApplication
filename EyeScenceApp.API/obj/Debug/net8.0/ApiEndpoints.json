@@ -1,0 +1,3013 @@
+[
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "DisLikeRate",
+    "RelativePath": "EyeScence/Rates/Dislike/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "LikeRate",
+    "RelativePath": "EyeScence/Rates/Like/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "RemoveDisLikeRate",
+    "RelativePath": "EyeScence/Rates/Undislike/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "RemoveLikeRate",
+    "RelativePath": "EyeScence/Rates/Unlike/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "GetActorByIdAsync",
+    "RelativePath": "EyeSceneAPI/Actor/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "GetActorAwards",
+    "RelativePath": "EyeSceneAPI/Actor/{Id}/Awards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "GetActorWorks",
+    "RelativePath": "EyeSceneAPI/Actor/{Id}/Works",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "GetAllActorsAsync",
+    "RelativePath": "EyeSceneAPI/Actor/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "CreateActorAsync",
+    "RelativePath": "EyeSceneAPI/Actor/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MiddleName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PrimaryImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BirthDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sex",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalMovies",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsCurrentlyActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ActingStyle",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "DeleteActorAsync",
+    "RelativePath": "EyeSceneAPI/Actor/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "FilterActors",
+    "RelativePath": "EyeSceneAPI/Actor/Filter-Actors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ascendenig",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sex",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "GetActorByNameAsync",
+    "RelativePath": "EyeSceneAPI/Actor/Search-Actors/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ActorController",
+    "Method": "UpdateActorAsync",
+    "RelativePath": "EyeSceneAPI/Actor/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MiddleName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bio",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Images",
+        "Type": "System.Collections.Generic.ICollection\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "BirthDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sex",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TotalMovies",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsCurrentlyActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "ActingStyle",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AuthenticationController",
+    "Method": "ChangePassword",
+    "RelativePath": "EyeSceneAPI/Authentication/Change-Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.ApplicationUser.ChangePasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AuthenticationController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "EyeSceneAPI/Authentication/Confirm-Email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AuthenticationController",
+    "Method": "ConfirmResetPassword",
+    "RelativePath": "EyeSceneAPI/Authentication/Confirm-Reset-Password-Code",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.ApplicationUser.ConfirmResetPasswordCodeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "EyeSceneAPI/Authentication/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.ApplicationUser.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AuthenticationController",
+    "Method": "RefreshToken",
+    "RelativePath": "EyeSceneAPI/Authentication/Refresh-Token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.ApplicationUser.RefreshTokenCommandDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AuthenticationController",
+    "Method": "ResetPassword",
+    "RelativePath": "EyeSceneAPI/Authentication/Reset-Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.ApplicationUser.ResetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AuthenticationController",
+    "Method": "SendResetCode",
+    "RelativePath": "EyeSceneAPI/Authentication/Send-Reset-Code",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "SendResetCodeCommandModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetAllAwardsAsync",
+    "RelativePath": "EyeSceneAPI/Awards/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetAwardsByCategoryAsync",
+    "RelativePath": "EyeSceneAPI/Awards/By-Category/{category}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetAwardByNameAsync",
+    "RelativePath": "EyeSceneAPI/Awards/By-Name/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetAwardsByOrganizationAsync",
+    "RelativePath": "EyeSceneAPI/Awards/By-Organization/{organizationName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizationName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetCelebirtyAwardByIdAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "AddAwardToCelebirtyAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/Add-To-Celebrity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "awardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "celebirtyId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetAllCelebirtyAwardsAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetAwardsByCelebrityAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/By-Celebrity/{celebrityId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "celebrityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "CreateCelebirtyAwardAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "AwardedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Organization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "DeleteCelebirtyAwardAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "awardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "RemoveAwardFromCelebrityAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/Remove-From-Celebrity",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "awardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "celebirtyId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "UpdateCelebirtyAwardAsync",
+    "RelativePath": "EyeSceneAPI/Awards/Celebrity/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "AwardedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Organization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetDigitalContentAwardByIdAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "AddAwardToDigitalContentAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/Add-To-Content",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "awardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "digitalContentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetAllDigitalContentAwardsAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "GetDigitalContentAwardsByDigitalContentAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/By-Content/{digitalContentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "digitalContentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "CreateDigitalContentAwardAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "AwardedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Organization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "DeleteDigitalContentAwardAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "awardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "RemoveAwardFromDigitalContentAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/Remove-From-Content",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "awardId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "digitalContentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.AwardController",
+    "Method": "UpdateDigitalContentAwardAsync",
+    "RelativePath": "EyeSceneAPI/Awards/DigitalContent/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "AwardedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Organization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "GetDirectorByIdAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "GetDirectorAwards",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/{Id}/Awards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "GetDirectorWorks",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/{Id}/Works",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "GetAllDirectorsAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "CreateDirectorAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Directors.CreateDirectorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "DeleteDirectorAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "FilterDirectors",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/Filter-Directors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ascendenig",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sex",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DirectorController",
+    "Method": "UpdateDirectorAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Directors/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Directors.UpdateDirectorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "GetEditorByIdAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "GetEditorAwards",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/{Id}/Awards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "GetEditorWorks",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/{Id}/Works",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "GetAllEditorsAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "CreateEditorAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Editiors.CreateEditorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "DeleteEditorAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "FilterEditors",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/Filter-Editors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ascendenig",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sex",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.EditorController",
+    "Method": "UpdateEditorAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Editors/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Editiors.UpdateEditorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "GetProducerByIdAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "GetProducerAwards",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/{Id}/Awards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "GetProducerWorks",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/{Id}/Works",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "GetAllProducersAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "CreateProducerAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Producers.CreateProducerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "DeleteProducerAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "FilterProducers",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/Filter-Producers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ascendenig",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sex",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.ProducerController",
+    "Method": "UpdateProducerAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Producers/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Producers.UpdateProducerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "GetSoundDesignerByIdAsync",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "GetSoundDesignerAwards",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/{Id}/Awards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "GetSoundDesignerWorks",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/{Id}/Works",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "GetAllSoundDesignersAsync",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "CreateSoundDesignerAsync",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.SoundDesigners.CreateSoundDesignerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "DeleteSoundDesignerAsync",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "FilterSoundDesigners",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/Filter-SoundDesigners",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ascendenig",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sex",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SoundDesignerController",
+    "Method": "UpdateSoundDesignerAsync",
+    "RelativePath": "EyeSceneAPI/Crews/SoundDesigners/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.SoundDesigners.UpdateSoundDesignerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "GetWriterByIdAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "GetWriterAwards",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/{Id}/Awards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "GetWriterWorks",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/{Id}/Works",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "GetAllWritersAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "CreateWriterAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Writers.CreateWriterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "DeleteWriterAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "FilterWriters",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/Filter-Writers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ascendenig",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nationality",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sex",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WriterController",
+    "Method": "UpdateWriterAsync",
+    "RelativePath": "EyeSceneAPI/Crews/Writers/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Crew.Writers.UpdateWriterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "AddActorToDigitalContentCast",
+    "RelativePath": "EyeSceneAPI/DigitalContents/{Id}/Add-Cast-member/{actorId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "actorId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "AddCrewMemberToDigitalContentCast",
+    "RelativePath": "EyeSceneAPI/DigitalContents/{Id}/Add-Crew-member/{crewId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "crewId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "AddGenreToDigitalContent",
+    "RelativePath": "EyeSceneAPI/DigitalContents/{Id}/Add-Genre/{genreId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "genreId",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "DeleteAwardFromDigitalContent",
+    "RelativePath": "EyeSceneAPI/DigitalContents/{Id}/Remove-Award/{awardId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "awardId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "RemoveActorFromDigitalContent",
+    "RelativePath": "EyeSceneAPI/DigitalContents/{Id}/Remove-Cast-member/{actorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "actorId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "RemoveCrewMemberFromDigitalContent",
+    "RelativePath": "EyeSceneAPI/DigitalContents/{Id}/Remove-Crew-member/{crewId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "crewId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "DeleteGenreFromDigitalContent",
+    "RelativePath": "EyeSceneAPI/DigitalContents/{Id}/Remove-Genre/{genreId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "genreId",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DigitalContentController",
+    "Method": "AddAwardToDigitalContent",
+    "RelativePath": "EyeSceneAPI/DigitalContents/Add-Award",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EyeScenceApp.Application.DTOs.DigitalContent.AddAwardToDigitalContentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "GetSingleDocumantryAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "GetAllDocumantriesAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "CreateSingleDocumantryAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationByMinutes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReleaseYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "DeleteSingleDocumantryAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documantryId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "SearchDocumantriesByCountryAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/Filter-by-country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "SearchDocumantriesByRealseyearAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/Filter-by-release-year",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "GetNewRealseDocumantriesAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/New-Release",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "SearchDocumantriesAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/search-By-Title",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "GetTopRatedDocumantriesAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/Top-Rated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.DocumantriesController",
+    "Method": "UpdateSingleDocumantryAsync",
+    "RelativePath": "EyeSceneAPI/Documantries/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationByMinutes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReleaseYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "DeleteEpisode",
+    "RelativePath": "EyeSceneAPI/Episode/{Id}/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "UpdateEpisode",
+    "RelativePath": "EyeSceneAPI/Episode/{Id}/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationByMinutes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Season",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EpisodeNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SeriesId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.FavoritesController",
+    "Method": "GetFavoritesOfUserAsync",
+    "RelativePath": "EyeSceneAPI/Favorites/All/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.FavoritesController",
+    "Method": "ClearFavoritesAsync",
+    "RelativePath": "EyeSceneAPI/Favorites/Clear/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.FavoritesController",
+    "Method": "AddToFavoritesListAsync",
+    "RelativePath": "EyeSceneAPI/Favorites/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Favorites.AddDigitalContentToUserFavoriteListDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.FavoritesController",
+    "Method": "DeleteFromFavoritesListAsync",
+    "RelativePath": "EyeSceneAPI/Favorites/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.Favorites.DeleteDigitalContentToUserFavoriteListDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.FavoritesController",
+    "Method": "IsFavoriteAsync",
+    "RelativePath": "EyeSceneAPI/Favorites/IsExistsInFavoritesList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DigitalContentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.GenreController",
+    "Method": "GetById",
+    "RelativePath": "EyeSceneAPI/Genres/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.GenreController",
+    "Method": "GetByName",
+    "RelativePath": "EyeSceneAPI/Genres/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.GenreController",
+    "Method": "GetAll",
+    "RelativePath": "EyeSceneAPI/Genres/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.GenreController",
+    "Method": "CreateGenre",
+    "RelativePath": "EyeSceneAPI/Genres/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.GenreController",
+    "Method": "DeleteGenre",
+    "RelativePath": "EyeSceneAPI/Genres/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.GenreController",
+    "Method": "UpdateGenre",
+    "RelativePath": "EyeSceneAPI/Genres/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Byte",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "GetSingleMovieAsync",
+    "RelativePath": "EyeSceneAPI/Movies/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "SearchMoviesAsync",
+    "RelativePath": "EyeSceneAPI/Movies/{Id}/Cast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "GetAllMoviesAsync",
+    "RelativePath": "EyeSceneAPI/Movies/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "CreateSingleMovieAsync",
+    "RelativePath": "EyeSceneAPI/Movies/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationByMinutes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReleaseYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Revenues",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "DeleteSingleMovieAsync",
+    "RelativePath": "EyeSceneAPI/Movies/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MovieId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "SearchMoviesByCountryAsync",
+    "RelativePath": "EyeSceneAPI/Movies/Filter-by-country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "SearchMoviesByRealseyearAsync",
+    "RelativePath": "EyeSceneAPI/Movies/Filter-by-release-year",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "GetNewRealseMoviesAsync",
+    "RelativePath": "EyeSceneAPI/Movies/New-Release",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "OrderMoviesByRevenuesAsync",
+    "RelativePath": "EyeSceneAPI/Movies/orderd-By-Revenues",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "SearchMoviesAsync",
+    "RelativePath": "EyeSceneAPI/Movies/search-By-Title",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "GetTopRatedMoviesAsync",
+    "RelativePath": "EyeSceneAPI/Movies/Top-Rated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.MoviesController",
+    "Method": "UpdateSingleMovieAsync",
+    "RelativePath": "EyeSceneAPI/Movies/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationByMinutes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReleaseYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Revenues",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "GetRateById",
+    "RelativePath": "EyeSceneAPI/Rates/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "CreateRate",
+    "RelativePath": "EyeSceneAPI/Rates/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rateDto",
+        "Type": "EyeScenceApp.Application.DTOs.Rates.CreateRateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "DeleteRate",
+    "RelativePath": "EyeSceneAPI/Rates/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "GetRateByDigitalContentId",
+    "RelativePath": "EyeSceneAPI/Rates/Digital-Content-Rates/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "GetTopRatedDigitalContent",
+    "RelativePath": "EyeSceneAPI/Rates/Top-Rated-DigitalContent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "GetTopRatedDigitalContentByGenreName",
+    "RelativePath": "EyeSceneAPI/Rates/Top-Rated-DigitalContent-In-Genre/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "UpdateRate",
+    "RelativePath": "EyeSceneAPI/Rates/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rateDto",
+        "Type": "EyeScenceApp.Application.DTOs.Rates.UpdateRateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.RateController",
+    "Method": "GetAllForUser",
+    "RelativePath": "EyeSceneAPI/Rates/User-Rates/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetById",
+    "RelativePath": "EyeSceneAPI/Series/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "DeleteSeries",
+    "RelativePath": "EyeSceneAPI/Series/{Id}/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetEpisodes",
+    "RelativePath": "EyeSceneAPI/Series/{Id}/Episodes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetEpisodesInSeason",
+    "RelativePath": "EyeSceneAPI/Series/{Id}/Episodes/{seasonNum}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "seasonNum",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "UpdateSeries",
+    "RelativePath": "EyeSceneAPI/Series/{Id}/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationByMinutes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReleaseYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "SeasonsCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EpisodesCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "CreateEpisode",
+    "RelativePath": "EyeSceneAPI/Series/AddEpisode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationByMinutes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Season",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EpisodeNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SeriesId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetAll",
+    "RelativePath": "EyeSceneAPI/Series/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetByTitle",
+    "RelativePath": "EyeSceneAPI/Series/ByTitle/{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "CreateSeries",
+    "RelativePath": "EyeSceneAPI/Series/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShortDescription",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CountryOfOrigin",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReleaseYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Poster",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "SeasonsCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EpisodesCount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetSeriesInGenre",
+    "RelativePath": "EyeSceneAPI/Series/Genre/{genreId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genreId",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetNewlyAdded",
+    "RelativePath": "EyeSceneAPI/Series/New-Release-Series",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.SeriesController",
+    "Method": "GetTopRated",
+    "RelativePath": "EyeSceneAPI/Series/TopRated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.UsersController",
+    "Method": "GetUserAccountById",
+    "RelativePath": "EyeSceneAPI/User/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.UsersController",
+    "Method": "GetAllAdmins",
+    "RelativePath": "EyeSceneAPI/User/All-Admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.UsersController",
+    "Method": "GetAllUserAccounts",
+    "RelativePath": "EyeSceneAPI/User/All-Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.UsersController",
+    "Method": "DeleteUserAccount",
+    "RelativePath": "EyeSceneAPI/User/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.UsersController",
+    "Method": "RegisterUserAccount",
+    "RelativePath": "EyeSceneAPI/User/Register-User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.ApplicationUser.CreateApplicationUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.UsersController",
+    "Method": "UpdateUserAccount",
+    "RelativePath": "EyeSceneAPI/User/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.ApplicationUser.UpdateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WatchListController",
+    "Method": "GetAllWatchListForUserAsync",
+    "RelativePath": "EyeSceneAPI/WatchList/All/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WatchListController",
+    "Method": "ClearWatchListAsync",
+    "RelativePath": "EyeSceneAPI/WatchList/Clear/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WatchListController",
+    "Method": "AddToWatchListAsync",
+    "RelativePath": "EyeSceneAPI/WatchList/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.WatchList.AddDigitalContentToUserWatchListDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WatchListController",
+    "Method": "DeleteFromWatchListAsync",
+    "RelativePath": "EyeSceneAPI/WatchList/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EyeScenceApp.Application.DTOs.WatchList.DeleteDigitalContentFromUserWatchListDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EyeScenceApp.API.Controllers.WatchListController",
+    "Method": "IsInWatchListAsync",
+    "RelativePath": "EyeSceneAPI/WatchList/IsExistsInWatchList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DigitalContentId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

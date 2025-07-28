@@ -1,0 +1,14 @@
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\bin\Debug\net8.0\EyeScenceApp.Domain.deps.json
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\bin\Debug\net8.0\EyeScenceApp.Domain.runtimeconfig.json
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\bin\Debug\net8.0\EyeScenceApp.Domain.dll
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\bin\Debug\net8.0\EyeScenceApp.Domain.pdb
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.csproj.AssemblyReference.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.AssemblyInfoInputs.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.AssemblyInfo.cs
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.dll
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\refint\EyeScenceApp.Domain.dll
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.pdb
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\EyeScenceApp.Domain.genruntimeconfig.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Domain\obj\Debug\net8.0\ref\EyeScenceApp.Domain.dll

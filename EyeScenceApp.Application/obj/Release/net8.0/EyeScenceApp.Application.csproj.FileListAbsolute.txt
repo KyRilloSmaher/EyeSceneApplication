@@ -1,0 +1,15 @@
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\bin\Release\net8.0\EyeScenceApp.Application.deps.json
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\bin\Release\net8.0\EyeScenceApp.Application.dll
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\bin\Release\net8.0\EyeScenceApp.Application.pdb
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\bin\Release\net8.0\EyeScenceApp.Domain.dll
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\bin\Release\net8.0\EyeScenceApp.Domain.pdb
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenceApp.Application.csproj.AssemblyReference.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenceApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenceApp.Application.AssemblyInfoInputs.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenceApp.Application.AssemblyInfo.cs
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenceApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenc.26A84673.Up2Date
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenceApp.Application.dll
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\refint\EyeScenceApp.Application.dll
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\EyeScenceApp.Application.pdb
+C:\Users\NanoChip\Desktop\ASP.Net_WorkSpace\EyeScenceApp\EyeScenceApp.Application\obj\Release\net8.0\ref\EyeScenceApp.Application.dll
