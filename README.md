@@ -58,7 +58,7 @@ The solution is organized into four primary projects, each fulfilling a distinct
 ### Setup Instructions
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/KyRilloSmaher/EyeSceneApplication
    ```
 2. **Open the Solution:**
    Open the solution in Visual Studio or your preferred IDE.
